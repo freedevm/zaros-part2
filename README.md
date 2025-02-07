@@ -67,7 +67,7 @@ Non-Trusted Actors:
 
 [//]: # (contest-details-close)
 
-[//]: # (scope-open)
+
 
 ## Scope (contracts)
 
