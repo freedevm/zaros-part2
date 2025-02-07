@@ -1,0 +1,9 @@
+MarketMakingEngineConfigurationBranch_ConfigureSystemKeeper_Integration_Test
+├── given the sender is not the owner
+│   └── it should revert
+└── given the sender is the owner
+    ├── when systemKeeper is zero
+    │   └── it should revert
+    └── when systemKeeper is not zero
+        ├── it should update the marketMakingEngineConfiguration storage
+        └── it should emit {LogConfigureSystemKeeper} event

@@ -1,0 +1,8 @@
+Unstake_Integration_Test
+├── when user has pending rewards
+│   └── it should revert
+└── when user doesnt have pending rewards
+    ├── when user does not have enough staked shares
+    │   └── it should revert
+    └── when user has enough staked shares
+        └── it should log unstake event

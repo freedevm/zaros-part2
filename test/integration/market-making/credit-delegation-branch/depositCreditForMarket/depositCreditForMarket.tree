@@ -1,0 +1,22 @@
+CreditDelegationBranch_DepositCreditForMarket_Integration_Test
+├── given the sender is not the registered engine
+│   └── it should revert
+└── given the sender is the registered engine
+    ├── when the amount is zero
+    │   └── it should revert
+    └── when the amount is not zero
+        ├── when the collateral is not enabled
+        │   └── it should revert
+        └── when the collateral is enabled
+            ├── when the market is not live
+            │   └── it should revert
+            └── when the market is live
+                ├── when the total delegated credit usd is zero
+                │   └── it should revert
+                └── when the total delegated credit usd is greater than zero
+                    ├── when the collateral type is not usdc
+                    │   ├── it should deposit credit for market
+                    │   └── it should emit {LogDepositCreditForMarket} event
+                    └── when the collateral type is usdc
+                        ├── it should update net usd token issuance
+                        └── it should emit {LogDepositCreditForMarket} event

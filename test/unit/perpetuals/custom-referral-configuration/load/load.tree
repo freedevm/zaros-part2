@@ -1,0 +1,3 @@
+CustomReferralConfiguration_Load_Unit_Test
+└── when load is called
+    └── it should return the referrer

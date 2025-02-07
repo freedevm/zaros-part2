@@ -1,0 +1,20 @@
+FulfillSwap_Integration_Test
+├── when caller is not keeper
+│   └── it should revert
+└── when caller is keeper
+    ├── when request was already processed
+    │   └── it should revert
+    └── when request was not yet processed
+        ├── when swap request has expired
+        │   └── it should revert
+        └── when swap request not expired
+            ├── when slippage check fails
+            │   └── it should revert
+            └── when slippage check passes and the premium or discount is zero
+            │    ├── it should transfer assets to user
+            │    ├── it should emit {LogFulfillSwap} event
+            │    └── it should burn USD token from contract
+            └── when slippage check passes and the premium or discount is not zero
+                ├── it should transfer assets to user
+                ├── it should emit {LogFulfillSwap} event
+                └── it should burn USD token from contract

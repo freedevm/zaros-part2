@@ -1,0 +1,18 @@
+MarketMakingEngineConfigurationBranch_ConfigureCollateral_Integration_Test
+├── given the sender is not the owner
+│   └── it should revert
+└── given the sender is the owner
+    ├── when collateral is zero
+    │   └── it should revert
+    └── when collateral is not zero
+        ├── when price adapter is zero
+        │   └── it should revert
+        └── when price adapter is not zero
+            ├── when credit ratio is zero
+            │   └── it should revert
+            └── when credit ratio is not zero
+                ├── when decimals is zero
+                │   └── it should revert
+                └── when decimals is not zero
+                    ├── it should update collateral storage
+                    └── it should emit {LogConfigureCollateral} event

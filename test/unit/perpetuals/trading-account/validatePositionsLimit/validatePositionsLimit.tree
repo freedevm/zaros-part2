@@ -1,0 +1,5 @@
+ValidatePositionsLimit_Unit_Test
+├── when user active positions is greater than or equal the max positions per account
+│   └── it should revert
+└── when user active positions is less than the max positions per account
+    └── it should not revert

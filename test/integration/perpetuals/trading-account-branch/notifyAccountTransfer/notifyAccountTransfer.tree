@@ -1,0 +1,11 @@
+NotifyAccountTransfer_Integration_Test
+├── given the sender is not the account nft contract
+│   └── it should revert
+├── given the sender is the account nft contract
+│   └── it should transfer the trading account token
+└── given the previous owner has pending market order
+    ├── when the minimum life time not passed
+    │   └── it should revert
+    └── when the minimum life time passed
+        ├── it should cancel the active market order
+        └── it should transfer the trading account

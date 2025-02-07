@@ -1,0 +1,4 @@
+UsdTokenSwapKeeper_CheckCallback_Integration_Test
+└── when checkCallback is called
+    ├── it should return signedReport
+    └── it should return extraData

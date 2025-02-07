@@ -1,0 +1,3 @@
+MarketMakingEngineConfigurationBranch_GetReceivedMarketFees_Integration_Test
+└── when getReceivedMarketFees is called
+    └── it should return the received fees

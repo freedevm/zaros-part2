@@ -1,0 +1,10 @@
+GetAccountMarginRequirementUsdAndUnrealizedPnlUsd_Unit_Test
+├── when position is opened and target market id is not zero
+│   └── it should update cumulative outputs
+├── when position is opened and target market id is zero
+│   └── it should update cumulative outputs
+├── when position is not opened and marketId is not zero
+│   └── it should update cumulative outputs
+└── when position is not opened and marketId is zero
+    └── it should update cumulative outputs 
+

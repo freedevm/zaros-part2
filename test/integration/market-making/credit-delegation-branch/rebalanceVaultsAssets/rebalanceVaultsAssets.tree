@@ -1,0 +1,12 @@
+CreditDelegationBranch_RebalanceVaultsAssets_Integration_Test
+├── when the indebt vault and incredit vaults engines mismatch
+│   └── it should revert
+└── when the indebt vault and incredit vaults engines match
+    ├── when the incredit vault unsettled realized debt is less than zero
+    │   └── it should revert
+    └── when the incredit vault unsettled realized debt is more than zero
+        ├── when the indebt vault unsettled realized debt is more than or equal to zero
+        │   └── it should revert
+        └── when the indebt vault unsettled realized debt is less than zero
+            ├── it should emit { LogRebalanceVaultsAssets } event
+            └── it should update vaults deposited usd and markets realized debt

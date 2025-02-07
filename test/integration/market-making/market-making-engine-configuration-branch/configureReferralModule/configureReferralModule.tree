@@ -1,0 +1,8 @@
+MarketMakingEngineConfigurationBranch_ConfigureReferralModule_Integration_Test
+├── given the sender is not the owner
+│   └── it should revert
+└── given the sender is the owner
+    ├── when the referral module is the zero address
+    │   └── it should revert
+    └── when the referral module is not the zero address
+        └── it should emit { LogConfigureReferralModule } event

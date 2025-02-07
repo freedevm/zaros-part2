@@ -1,0 +1,12 @@
+CreditDelegationBranch_WithdrawUsdTokenFromMarket_Integration_Test
+├── given the sender is not the registered engine
+│   └── it should revert
+└── given the sender is the registered engine
+    ├── when the market is not live
+    │   └── it should revert
+    └── when the market is live
+        ├── when the credit capacity usd is less than zero
+        │   └── it should revert
+        └── when the credit capacity usd is equal or greater than zero
+            ├── it should mint the usd token
+            └── it should emit {LogWithdrawUsdTokenFromMarket} event

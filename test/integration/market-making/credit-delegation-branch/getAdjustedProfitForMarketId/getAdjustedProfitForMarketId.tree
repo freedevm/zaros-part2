@@ -1,0 +1,11 @@
+CreditDelegationBranch_GetAdjustedProfitForMarketId_Integration_Test
+├── when the market is not live
+│   └── it should revert
+└── when the market is live
+    ├── when the credit capacity is less than or equal to zero
+    │   └── it should revert
+    └── when the credit capacity is greater than zero
+        ├── when the auto deleverage factor is not triggered
+        │   └── it should return the adjusted profit
+        └── when the auto deleverage factor is triggered
+            └── it should return the adjusted profit

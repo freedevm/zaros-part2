@@ -1,0 +1,15 @@
+Position_IsNotionalValueIncreasing_Test
+├── when a new position is being created
+│   └── it should return true
+├── when sizeDelta is positive and position size is positive
+│   └── it should return true
+├── when sizeDelta is negative and position size is negative
+│   └── it should return true
+├── when sizeDelta is positive and position size is negative
+│   └── it should return false
+├── when sizeDelta is negative and position size is positive
+│   └── it should return false
+├── when position size is positive and position size plus sizeDelta absolute is greater than the position size absolute
+│   └── it should return true
+└── when position size is negative and position size plus sizeDelta absolute is greater than the position size absolute
+    └── it should return true

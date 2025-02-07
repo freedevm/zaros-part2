@@ -1,0 +1,7 @@
+ValidateMarginRequirement_Unit_Test
+├── when required margin plus total fees is greater than the margin balance
+│   └── it should revert
+├── when required margin plus total fees is equal to the margin balance
+│   └── it should continue execution
+└── when required margin plus total fees is less than the margin balance
+    └── it should continue execution

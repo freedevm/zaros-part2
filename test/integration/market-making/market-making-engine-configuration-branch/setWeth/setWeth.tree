@@ -1,0 +1,9 @@
+MarketMakingEngineConfigurationBranch_SetWeth_Integration_Test
+├── given the sender is not the owner
+│   └── it should revert
+└── given the sender is the owner
+    ├── when weth is zero
+    │   └── it should revert
+    └── when weth is not zero
+        ├── it should update the market making engine configuration storage
+        └── it should emit {LogSetWeth} event

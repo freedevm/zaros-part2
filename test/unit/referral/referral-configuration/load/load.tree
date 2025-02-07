@@ -1,0 +1,4 @@
+Referral_Load_Unit_Test
+└── when load is called
+    ├── it should return the referral code
+    └── it should return if referral code is custom

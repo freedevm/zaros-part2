@@ -1,0 +1,309 @@
+{
+  "data": [
+    {
+      "sender": "0xE0d52ad0C0e7B001247182864fc5B9AD26327457",
+      "referrer": "0x2D07b7eb70e1ca8a9A645a4ea2a0753041E99a3B",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x3e4EC0313CbD15675c2296f0c991643E3cc0478f",
+      "referrer": "0x3e4EC0313CbD15675c2296f0c991643E3cc0478f",
+      "shouldUseReferrerField": false
+    },
+    {
+      "sender": "0x188Ec4999300745D0B89C9d9B1ff20a66Ad3951A",
+      "referrer": "0x2D07b7eb70e1ca8a9A645a4ea2a0753041E99a3B",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0xc375cF546497944020B4aB75F7167a2415554312",
+      "referrer": "0x6465e1dD2A93BD78112D6e5f90b1eBeEBC2d9765",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x5e4164E60835c89FEc48daC79FE3891A804F4b1f",
+      "referrer": "0x5e4164E60835c89FEc48daC79FE3891A804F4b1f",
+      "shouldUseReferrerField": false
+    },
+    {
+      "sender": "0x1B7c3B19AA6872e607686681a6A5dB6Ea1761985",
+      "referrer": "0x1B7c3B19AA6872e607686681a6A5dB6Ea1761985",
+      "shouldUseReferrerField": false
+    },
+    {
+      "sender": "0x48F121b733b7f1C982534a64Fb07C930f29A33d5",
+      "referrer": "0x1B7c3B19AA6872e607686681a6A5dB6Ea1761985",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x5726729638d49409DB3fd530674f55fC731b96C8",
+      "referrer": "0x5726729638d49409DB3fd530674f55fC731b96C8",
+      "shouldUseReferrerField": false
+    },
+    {
+      "sender": "0x2E9878d8Ba9475AAD93B3D36a19fF8aA9C9f3A5b",
+      "referrer": "0x16294a53032Aa33a335902D462D201a129CFfBe4",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x8b3A49B827472f8529a5B3b8fa48AC407118Ad34",
+      "referrer": "0x8b3A49B827472f8529a5B3b8fa48AC407118Ad34",
+      "shouldUseReferrerField": false
+    },
+    {
+      "sender": "0x6f75c31a5535E408b9D70905c22adb6301c78AE1",
+      "referrer": "0xf88A6a1599f85Cc9824BbFa4060cd9b31aa0cBaF",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x57bfeD266D73d3a610801c9A8b5431E3dce6131C",
+      "referrer": "0xAFa841FAB90d5b2f68d04799Ed35A458D856d1E5",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0xD127e73aDb4b30A19556149e1d584071d2792afB",
+      "referrer": "0xAFa841FAB90d5b2f68d04799Ed35A458D856d1E5",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0xBf27B5650869387B506a06585bc50dC9712F52F2",
+      "referrer": "0xAFa841FAB90d5b2f68d04799Ed35A458D856d1E5",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x694c3e2E4b99205548193eC89eB42bB1f8545263",
+      "referrer": "0xAFa841FAB90d5b2f68d04799Ed35A458D856d1E5",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x898Cf1440ec9B576B0093c9eEdD188C5e87Bfc16",
+      "referrer": "0xAFa841FAB90d5b2f68d04799Ed35A458D856d1E5",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x41592097A9A717F52a735B41C86C33260370255f",
+      "referrer": "0xAFa841FAB90d5b2f68d04799Ed35A458D856d1E5",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0xadEc8975680fA57c9b1cB45ad03967ac245e8B92",
+      "referrer": "0xAFa841FAB90d5b2f68d04799Ed35A458D856d1E5",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0xfAEED76E72e0E59389C39143C28B2B8ed4F96ba4",
+      "referrer": "0x16294a53032Aa33a335902D462D201a129CFfBe4",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0xa3A3d416ccE94B5884846AFE5bE8AAd3870E4210",
+      "referrer": "0x8E981a9C39266C13909Fe999aa68a442A7733a9f",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0xebEcCea8644331cd921fCe25b8C7593C03cb0a55",
+      "referrer": "0xb7D581A8a2Ee04BcB26c768b893917c13B96831F",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x82205bF741cC60c56c7DF7857e05b793d8ed2Cac",
+      "referrer": "0x6f99cfcD97A86b5dac4542aB5b2a2aF8a9CbF567",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x23787E083f1c0C858A026F0d57aFC9832204b8B0",
+      "referrer": "0x23787E083f1c0C858A026F0d57aFC9832204b8B0",
+      "shouldUseReferrerField": false
+    },
+    {
+      "sender": "0x8C03EA369229fcd6aF0F84Ce3106a180a8363Ff9",
+      "referrer": "0x8C03EA369229fcd6aF0F84Ce3106a180a8363Ff9",
+      "shouldUseReferrerField": false
+    },
+    {
+      "sender": "0x18fdd6DD2d92b9B709f021fBA5E4e9B448633eFb",
+      "referrer": "0x18fdd6DD2d92b9B709f021fBA5E4e9B448633eFb",
+      "shouldUseReferrerField": false
+    },
+    {
+      "sender": "0x901b703b4279fe98e731081a8F090c22dCc017B0",
+      "referrer": "0x6827e5B7904A7A0b6e3f97Ac463a3d3B0BD0AB08",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0xE19c5220f66D71d6A7C3F308Ab1a0C23B0E96E8c",
+      "referrer": "0xE19c5220f66D71d6A7C3F308Ab1a0C23B0E96E8c",
+      "shouldUseReferrerField": false
+    },
+    {
+      "sender": "0x24beCb034139c998c6C812AfED1C13aE3A9B998a",
+      "referrer": "0x1B7c3B19AA6872e607686681a6A5dB6Ea1761985",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x5b1Bb9B12F105757193708bb9d569B7e323D3b4E",
+      "referrer": "0x1B7c3B19AA6872e607686681a6A5dB6Ea1761985",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x627A6D53DC0bC30F60Aa9cB2767692eF59Dd9453",
+      "referrer": "0x2D07b7eb70e1ca8a9A645a4ea2a0753041E99a3B",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x8F59B41AC5237ABf3954e2061B9AF264cEAD67B2",
+      "referrer": "0x2D07b7eb70e1ca8a9A645a4ea2a0753041E99a3B",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x8074ceAE5858649ecFFee7EdC6CE428D305D926e",
+      "referrer": "0x1B7c3B19AA6872e607686681a6A5dB6Ea1761985",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x0e0EaE166b1df6e3aE5B00E0aF64BB07b96725C7",
+      "referrer": "0x6827e5B7904A7A0b6e3f97Ac463a3d3B0BD0AB08",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0xA7FCbc0B67c760D6Da730000860aB2705D1d74e3",
+      "referrer": "0x16294a53032Aa33a335902D462D201a129CFfBe4",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0xeE2245beDA7206d52982Fb04754188fB02105131",
+      "referrer": "0x1B7c3B19AA6872e607686681a6A5dB6Ea1761985",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x9911f2E2bb3E4b94643ecB2469eA7E4352Ef2078",
+      "referrer": "0x1B7c3B19AA6872e607686681a6A5dB6Ea1761985",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x2EEd6277b9B828407f45C715481Ba05e053c2166",
+      "referrer": "0x1B7c3B19AA6872e607686681a6A5dB6Ea1761985",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x5acF75CB95f8b5625ce9C6eEe42AaDED0c092fa4",
+      "referrer": "0x1B7c3B19AA6872e607686681a6A5dB6Ea1761985",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x57214e3242381af0e35166bA7227440fbDAefbCc",
+      "referrer": "0x1B7c3B19AA6872e607686681a6A5dB6Ea1761985",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x9248dEb3B888bEBed9510faC034F8C8f5608e03f",
+      "referrer": "0x1B7c3B19AA6872e607686681a6A5dB6Ea1761985",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0xe19BacAFD2b0e2e81031CE925E5475be51c635EB",
+      "referrer": "0xe19BacAFD2b0e2e81031CE925E5475be51c635EB",
+      "shouldUseReferrerField": false
+    },
+    {
+      "sender": "0xAB7EF69D40432E2e3b87953cdAC76a609b5AF64a",
+      "referrer": "0xC7043a3E86878104cebe070225578c46579AC7dD",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x5C1330AeB7124cA8ea034e28e1b0C214988EC60F",
+      "referrer": "0x431B0fF9643256823923806aa47F27153baac372",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0xDc9222033929031c7Bd381039CfdcCfF148D7794",
+      "referrer": "0xDc9222033929031c7Bd381039CfdcCfF148D7794",
+      "shouldUseReferrerField": false
+    },
+    {
+      "sender": "0xaE6ACB45E163808005e1bA201688780d62cC2004",
+      "referrer": "0xaE6ACB45E163808005e1bA201688780d62cC2004",
+      "shouldUseReferrerField": false
+    },
+    {
+      "sender": "0xD32E237CC46A1a3159A94Fd90900a6d8a99691FB",
+      "referrer": "0x6827e5B7904A7A0b6e3f97Ac463a3d3B0BD0AB08",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x3829237546a49432E441F4B3ceB451Eaad185b7F",
+      "referrer": "0xCdb7733a1f91b73fc3229c458E843d2D0A8C0F5d",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0xAc6b7bE1672dc756a7Ec267e08B8035dd6670647",
+      "referrer": "0xAc6b7bE1672dc756a7Ec267e08B8035dd6670647",
+      "shouldUseReferrerField": false
+    },
+    {
+      "sender": "0xAAB33BB6d27A0c23380537CA8b90Cf5C6335F658",
+      "referrer": "0xAAB33BB6d27A0c23380537CA8b90Cf5C6335F658",
+      "shouldUseReferrerField": false
+    },
+    {
+      "sender": "0x883Cfa0d44E5513F2eBD0B796f820715ece2D0C1",
+      "referrer": "0x883Cfa0d44E5513F2eBD0B796f820715ece2D0C1",
+      "shouldUseReferrerField": false
+    },
+    {
+      "sender": "0x341fC83E2189E8F95E29CEa9d7705a379E2C2812",
+      "referrer": "0x341fC83E2189E8F95E29CEa9d7705a379E2C2812",
+      "shouldUseReferrerField": false
+    },
+    {
+      "sender": "0xc90C586677D02bFBeE8e70A91A66689212f88e82",
+      "referrer": "0xc90C586677D02bFBeE8e70A91A66689212f88e82",
+      "shouldUseReferrerField": false
+    },
+    {
+      "sender": "0xf1F5c766958e4Ec65c7Af6e1CCB545950D41F6AB",
+      "referrer": "0xD5C668f3BE711aA1a1730AF7d5b8249B09d02Ad2",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x3B9346Bb278A2bC6f84a9b32835FC10216c99eCf",
+      "referrer": "0x3B9346Bb278A2bC6f84a9b32835FC10216c99eCf",
+      "shouldUseReferrerField": false
+    },
+    {
+      "sender": "0xFE3501FBE1Ae1801AA2479F414E6d2B305d1feb1",
+      "referrer": "0x6827e5B7904A7A0b6e3f97Ac463a3d3B0BD0AB08",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x5C0b3Ad5591BC141F49eCCdcEAC53fa1faF7e252",
+      "referrer": "0x5C0b3Ad5591BC141F49eCCdcEAC53fa1faF7e252",
+      "shouldUseReferrerField": false
+    },
+    {
+      "sender": "0x5a06B944d488f23a7AE637bfA23aD5162D546dBC",
+      "referrer": "0xB316ab8Ce70C8b66C87B4AABea538CaD66BB8190",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0xA008500eF217AD4277664d6d536b43ed9184aD05",
+      "referrer": "0xA008500eF217AD4277664d6d536b43ed9184aD05",
+      "shouldUseReferrerField": false
+    },
+    {
+      "sender": "0x095fc75a337b01C8Aa51F0388E56A6135e0980fC",
+      "referrer": "0x6827e5B7904A7A0b6e3f97Ac463a3d3B0BD0AB08",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0x8aF7C686621A4cC30E225915a4E04A50b2268199",
+      "referrer": "0x7AACd79f92b5d3517DA9Fa055EAAaf3Dd2A6D953",
+      "shouldUseReferrerField": true
+    },
+    {
+      "sender": "0xD09C35461517EB83602f0439a3238B2d91100D3d",
+      "referrer": "0x156B4B269d7b208c7fF4c98B2D37Ff912f1a129e",
+      "shouldUseReferrerField": true
+    }
+  ]
+}

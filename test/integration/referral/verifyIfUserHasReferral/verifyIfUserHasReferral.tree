@@ -1,0 +1,5 @@
+Referral_VerifyIfUserHasReferral_Integration_Test
+├── when the user has a referral
+│   └── it should return true
+└── when the user does not have a referral
+    └── it should return false

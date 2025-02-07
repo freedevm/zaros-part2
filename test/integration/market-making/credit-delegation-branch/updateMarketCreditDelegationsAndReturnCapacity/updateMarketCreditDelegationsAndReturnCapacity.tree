@@ -1,0 +1,4 @@
+CreditDelegationBranch_UpdateMarketCreditDelegationsAndReturnCapacity_Integration_Test
+└── when updateMarketCreditDelegationsAndReturnCapacity is called
+    ├── it should emit { LogUpdateVaultCreditCapacity } event
+    └── it should return market credit capacity

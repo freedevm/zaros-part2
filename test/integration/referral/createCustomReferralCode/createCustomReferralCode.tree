@@ -1,0 +1,7 @@
+Referral_CreateCustomReferralCode_Integration_Test
+├── given the sender is not the registered engine
+│   └── it should revert
+└── given the sender is the registered engine
+    └── when createCustomReferralCode is called
+        ├── it should the custom referral code and referrer on storage
+        └── it should emit {LogCreateCustomReferralCode} event

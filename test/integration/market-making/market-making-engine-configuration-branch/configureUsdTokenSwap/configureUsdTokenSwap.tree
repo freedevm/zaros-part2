@@ -1,0 +1,8 @@
+MarketMakingEngineConfigurationBranch_ConfigureUsdTokenSwapConfig_Integration_Test
+├── given the sender is not the owner
+│   └── it should revert
+└── given the sender is the owner
+    ├── when the max execution time is zero
+    │   └── it should revert
+    └── when the max execution time is not zero
+        └── it should update the usd token swap fees

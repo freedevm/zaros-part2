@@ -1,0 +1,3 @@
+MarketMakingEngineConfigurationBranch_GetCollateralData_Integration_Test
+└── when getCollateralData is called
+    └── it should return the collateral data

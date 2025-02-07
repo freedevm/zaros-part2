@@ -1,0 +1,5 @@
+VerifySender_Unit_Test
+├── when the trading account owner is different from the msg sender
+│   └── it should revert
+└── when the trading account owner is equal to the msg sender
+    └── it should not revert

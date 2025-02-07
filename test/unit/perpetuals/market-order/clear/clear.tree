@@ -1,0 +1,5 @@
+MarketOrder_Clear_Unit_Test
+└── when clear is called
+    ├── it should return the marketId equal to zero
+    ├── it should return the sizeDelta equal to zero
+    └── it should return the timestamp equal to zero

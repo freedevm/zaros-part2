@@ -1,0 +1,3 @@
+GetVaultCreditCapacity_Integration_Test
+└── when getVaultCreditCapacity is called
+    └── it should return the vault credit capacity

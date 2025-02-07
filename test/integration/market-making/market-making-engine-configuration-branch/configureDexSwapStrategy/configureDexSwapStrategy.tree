@@ -1,0 +1,12 @@
+MarketMakingEngineConfigurationBranch_ConfigureDexSwapStrategy_Integration_Test
+├── given the sender is not the owner
+│   └── it should revert
+└── given the sender is the owner
+    ├── when dexSwapStrategyId is zero
+    │   └── it should revert
+    └── when dexSwapStrategyId is not zero
+        ├── when dexAdapter is zero
+        │   └── it should revert
+        └── when dexAdapter is not zero
+            ├── it should update the dex swap strategy storage
+            └── it should emit {LogConfigureDexSwapStrategy} event

@@ -1,0 +1,13 @@
+UpdateActiveMarkets_Unit_Test
+├── when there has been no new market order entered nor a previously active market exited
+│   └── it should not do anything
+├── when this is a new position
+│   ├── when this account has no other active positions
+│   │   └── it should record into perps engine config as an account having active positions
+│   └── when this account has other active positions
+│       └── it should add this market id as active for this account
+└── when the existing position was closed
+    ├── when the account has no more active markets
+    │   └── it should remove the account from active accounts in perps engine config
+    └── when the account has active markets
+        └── it should remove this market as active for this account

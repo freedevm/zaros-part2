@@ -1,0 +1,5 @@
+CreditDelegationBranch_GetCreditCapacityForMarketId_Integration_Test
+├── when the market does not exists
+│   └── it should revert
+└── when the market exists
+    └── it should return the credit capacity

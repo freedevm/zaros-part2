@@ -1,0 +1,12 @@
+UpdateVaultConfiguration_Integration_Test
+├── when the deposit cap is zero
+│   └── it should revert
+└── when the deposit cap is not zero
+    ├── when withdrawalDelay is zero
+    │   └── it should revert
+    └── when withdrawalDelay is not zero
+        ├── when vault id is zero
+        │   └── it should revert
+        └── when vault id is not zero
+            ├── it should update vault
+            └── it should emit update event

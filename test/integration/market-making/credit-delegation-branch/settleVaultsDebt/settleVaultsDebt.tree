@@ -1,0 +1,12 @@
+CreditDelegationBranch_SettleVaultsDebt_Integration_Test
+├── when vault id is invalid
+│   └── it should revert
+└── when vault id is valid
+    ├── when vault unsettled realized debt is zero
+    │   └── it should continue
+    ├── when the vault unsettled realized debt is less than zero
+    │   ├── it should emit { LogSettleVaultDebt } event
+    │   └── it should increase the usdc available for engine amount
+    └── when the vault unsettled realized debt is greater than zero
+        ├── it should emit { LogSettleVaultDebt } event
+        └── it should decrease vault deposited usd amount

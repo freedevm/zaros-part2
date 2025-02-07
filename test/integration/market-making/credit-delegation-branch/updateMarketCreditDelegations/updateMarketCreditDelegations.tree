@@ -1,0 +1,3 @@
+CreditDelegationBranch_UpdateMarketCreditDelegations_Integration_Test
+└── when updateMarketCreditDelegations is called
+    └── it should emit { LogUpdateVaultCreditCapacity } event

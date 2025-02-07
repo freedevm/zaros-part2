@@ -1,0 +1,4 @@
+Deposit_Unit_Test
+└── when deposit is called
+    ├── it should set the margin collateral on user trading account
+    └── it should update the total deposited

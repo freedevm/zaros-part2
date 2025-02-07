@@ -1,0 +1,15 @@
+Redeem_Integration_Test
+├── when request is fulfulled
+│   └── it should revert
+└── when request is not fulfulled
+    ├── when delay has not passed
+    │   └── it should revert
+    └── when delay has passed
+        ├── when assets are less than min amount
+        │   └── it should revert
+        └── when assets are more than min amount
+            ├── when unlocked credit capacity is not enough
+            │   └── it should revert
+            └── when unlocked credit capacity is enough
+                ├── it should send the fees to the vault redeem fee recipient
+                └── it should transfer assets to user

@@ -1,0 +1,10 @@
+ClaimFees_Integration_Test
+├── when the user does not have available shares
+│   └── it should revert
+└── when the user does have available shares
+    ├── when amount to claim is zero
+    │   └── it should revert
+    └── when amount to claim is greater then zero
+        ├── it should update accumulate actor
+        ├── it should transfer the fees to the sender
+        └── it should emit {LogClaimFees} event

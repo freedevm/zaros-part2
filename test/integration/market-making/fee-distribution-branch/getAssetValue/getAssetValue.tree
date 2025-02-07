@@ -1,0 +1,3 @@
+MarketMakingEngineConfigurationBranch_GetAssetValue_Integration_Test
+└── when getAssetValue is called
+    └── it should return the asset value

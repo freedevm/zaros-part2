@@ -1,0 +1,12 @@
+FeeConversionKeeper_Initialize_Integration_Test
+├── when address of market making engine is zero
+│   └── it should revert
+└── when address of engine is not zero
+    ├── when dex swap strategy adapter is address zero
+    │   └── it should revert
+    └── when dex swap strategy adapter is not address zero
+        ├── when min fee distribution value is zero
+        │   └── it should revert
+        └── when min fee distribution value is not zero
+            └── it should initialize
+

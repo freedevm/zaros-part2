@@ -1,0 +1,17 @@
+MarketMakingEngineConfigurationBranch_ConfigureEngine_Integration_Test
+├── given the sender is not the owner
+│   └── it should revert
+└── given the sender is the owner
+    ├── when the engine is zero
+    │   └── it should revert
+    ├── when the shouldBeEnabled is false
+    │   ├── it should update the isRegisteredEngine storage to false
+    │   ├── it should update the usdTokenOfEngine storage to zero
+    │   └── it should emit the {LogConfigureEngine} event
+    └── when the shouldBeEnabled is true
+        ├── when the usdToken is zero
+        │   └── it should revert
+        └── when the usdToken is not zero
+            ├── it should update the isRegisteredEngine storage to true
+            ├── it should update the usdTokenOfEngine to usdToken
+            └── it should emit {LogConfigureEngine} event

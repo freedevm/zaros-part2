@@ -1,0 +1,12 @@
+InitiateWithdraw_Integration_Test
+├── when amount is zero
+│   └── it should revert
+└── when amount is not zero
+    ├── when vaultId is invalid
+    │   └── it should revert
+    └── when vaultId is valid
+        ├── when shares amount is gt user balance
+        │   └── it should revert
+        └── when shares amount is not gt user balance
+            └── given user has shares balance
+                └── it should create withdraw request

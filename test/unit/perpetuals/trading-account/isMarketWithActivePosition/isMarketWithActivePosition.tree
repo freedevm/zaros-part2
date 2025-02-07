@@ -1,0 +1,7 @@
+IsMarketWithActivePosition_Unit_Test
+├── when the market has active positions
+│   └── it should return true
+└── when the market has no active positions
+    └── it should return false
+
+

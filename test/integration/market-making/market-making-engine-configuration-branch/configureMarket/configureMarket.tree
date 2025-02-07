@@ -1,0 +1,21 @@
+MarketMakingEngineConfigurationBranch_ConfigureMarket_Integration_Test
+├── given the sender is not the owner
+│   └── it should revert
+└── given the sender is the owner
+    ├── when the engine is zero
+    │   └── it should revert
+    └── when the engine is not zero
+        ├── when the marketId is zero
+        │   └── it should revert
+        └── when the marketId is not zero
+            ├── when the autoDeleverageStartThreshold is zero
+            │   └── it should revert
+            └── when the autoDeleverageStartThreshold is not zero
+                ├── when the autoDeleverageEndThreshold is zero
+                │   └── it should revert
+                └── when the autoDeleverageEndThreshold is not zero
+                    ├── when the autoDeleverageExpoentZ is zero
+                    │   └── it should revert
+                    └── when the autoDeleverageExpoentZ is not zero
+                        ├── it should update market storage
+                        └── it should emit {LogConfigureMarket} event

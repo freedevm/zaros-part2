@@ -1,0 +1,5 @@
+Create_Unit_Test
+└── when the create is called
+    ├── it should create the trading account
+    ├── it should save the trading account id
+    └── it should save the owner

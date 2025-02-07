@@ -1,0 +1,12 @@
+MarketMakingEngineConfigurationBranch_ConfigureFeeRecipient_Integration_Test
+├── given the sender is not the owner
+│   └── it should revert
+└── given the sender is the owner
+    ├── when the fee recipient is zero
+    │   └── it should revert
+    └── when fee recipient is not zero
+        ├── when the total of fee recipients share is greater then the max of shares
+        │   └── it should revert
+        └── when the total of fee recipients share is less or equal then the max of shares
+            ├── it should set the protocol fee recipients in the storage
+            └── it should emit {LogConfigureFeeRecipient} event

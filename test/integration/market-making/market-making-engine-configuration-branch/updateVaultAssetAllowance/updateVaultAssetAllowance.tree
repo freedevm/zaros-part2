@@ -1,0 +1,5 @@
+MarketMakingEngineConfigurationBranch_UpdateVaultAssetAllowance_Integration_Test
+├── given the sender is not the owner
+│   └── it should revert
+└── given the sender is the owner
+    └── it should update allowance

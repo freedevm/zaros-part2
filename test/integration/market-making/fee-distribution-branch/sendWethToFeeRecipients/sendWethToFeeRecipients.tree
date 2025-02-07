@@ -1,0 +1,16 @@
+SendWethToFeeRecipients_Integration_Test
+├── given the sender is not registered engine
+│   └── it should revert
+└── given the sender is registered engine
+    ├── when the market does not exist
+    │   └── it should revert
+    └── when the market exist
+        ├── when there is no available fees to withdraw
+        │   └── it should revert
+        └── when there is available fees to withdraw
+            ├── when there are no fee recipients shares
+            │   └── it should revert
+            └── when there are fee recipients shares
+                ├── it should transfer the fees to the fee recipients
+                ├── it should emit {LogSendWethToFeeRecipients} event
+                └── it should decrement the available fees to withdraw

@@ -1,0 +1,15 @@
+InitiateSwap_Integration_Test
+├── when vaultIds and amountsIn arrays length missmatch
+│   └── it should revert
+└── when vaultIds and amountsIn arrays length match
+    ├── when amountsIn and minAmountsOut arrays length missmatch
+    │   └── it should revert
+    └── when amountsIn and minAmountsOut arrays length match
+        ├── when collateral is disabled
+        │   └── it should revert
+        └── when collateral is enabled
+            ├── when collateral assets of vaults missmatch
+            │   └── it should revert
+            └── when collateral assets of vaults match
+                ├── it should emit {LogInitiateSwap} event
+                └── it should create new usd token swap request

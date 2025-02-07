@@ -1,0 +1,9 @@
+RefundSwap_Integration_Test
+├── when request is already processed
+│   └── it should revert
+└── when request is not processed
+    ├── when deadline has not passed
+    │   └── it should revert
+    └── when deadline has passed
+        ├── it should transfer usd back to user
+        └── it should emit {LogRefundSwap} event

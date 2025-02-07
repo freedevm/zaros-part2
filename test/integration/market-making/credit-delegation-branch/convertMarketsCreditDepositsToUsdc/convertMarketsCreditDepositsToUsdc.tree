@@ -1,0 +1,14 @@
+CreditDelegationBranch_ConvertMarketsCreditDepositsToUsdc_Integration_Test
+├── when assets and dex swap strategy id arrays length mismatch
+│   └── it should revert
+└── when assets and dex swap strategy id arrays length match
+    ├── when assets and paths arrays length mismatch
+    │   └── it should revert
+    └── when assets and paths arrays length match
+        ├── when the market id is invalid
+        │   └── it should revert
+        └── when the market id is valid
+            ├── when the market does not contain an asset from the array
+            │   └── it should revert
+            └── when the market contains all assets from the array
+                └── it should emit { LogConvertMarketCreditDepositsToUsdc } event

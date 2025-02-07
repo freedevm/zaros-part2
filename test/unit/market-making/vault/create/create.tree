@@ -1,0 +1,5 @@
+Vault_Create_Unit_Test
+├── when create is passed existing vault id
+│   └── it should revert
+└── when create is passed valid vault id
+    └── it should create new vault

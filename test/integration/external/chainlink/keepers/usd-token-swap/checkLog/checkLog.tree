@@ -1,0 +1,9 @@
+UsdTokenSwapKeeper_CheckLog_Integration_Test
+└── given checkLog is called
+    ├── when deadline has expored
+    │   └── it should return false
+    └── when deadline has not expired
+        ├── when assets missmatch
+        │   └── it should return false
+        └── when assets match
+            └── it should revert

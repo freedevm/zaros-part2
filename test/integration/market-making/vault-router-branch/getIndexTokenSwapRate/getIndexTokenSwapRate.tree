@@ -1,0 +1,3 @@
+GetIndexTokenSwapRate_Integration_Test
+└── when getIndexTokenSwapRate is called
+    └── it should return the swap rate

@@ -1,0 +1,3 @@
+GetEarnedFees_Integration_Test
+└── when getEarnedFees is called
+    └── it should return the earned fees

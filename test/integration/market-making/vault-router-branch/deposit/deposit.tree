@@ -1,0 +1,29 @@
+Deposit_Integration_Test
+├── when deposited assets are zero
+│   └── it should revert
+└── when deposited assets are not zero
+    ├── when whitelist is enabled
+    │   └── when user is not allowed
+    │       └── it should revert
+    └── when whitelist is disabled or user is allowed
+        ├── when vault does not exist
+        │   └── it should revert
+        └── when vault does exist
+            ├── when the deposit fee is not zero
+            │   ├── when asset fee is zero
+            │   │   └── it should revert
+            │   └── when asset fee is not zero
+            │       └── when asset minus fee is zero
+            │           └── it should revert
+            └── when the deposit fee is zero or not
+                ├── when the deposit cap is reached
+                │   └── it should revert
+                └── when the deposit cap is not reached
+                    ├── when shares minted are less than min amount
+                    │   └── it should revert
+                    └── when shares minted are more than min amount
+                        ├── when shares minted are zero
+                        │   └── it should revert
+                        └── when shares minted are not zero
+                            ├── it should send the fees to the vault deposit fee recipient
+                            └── it should mint shares to the user

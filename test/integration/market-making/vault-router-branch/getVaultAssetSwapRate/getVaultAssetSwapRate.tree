@@ -1,0 +1,3 @@
+GetVaultAssetSwapRate_Integration_Test
+└── when getVaultAssetSwapRate is called
+    └── it should return the swap rate

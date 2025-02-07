@@ -1,0 +1,5 @@
+GetReferrerAddress_Unit_Test
+├── when referral code is custom
+│   └── it should return the address of referrer
+└── when referral code is not custom
+    └── it should return the address of referrer

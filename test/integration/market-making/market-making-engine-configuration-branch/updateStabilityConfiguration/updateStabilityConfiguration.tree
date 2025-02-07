@@ -1,0 +1,9 @@
+MarketMakingEngineConfigurationBranch_UpdateStabilityConfiguration_Integration_Test
+├── when chainlink verifier is address zero
+│   └── it should revert
+└── when chainlink verifier is not address zero
+    ├── when maxVerificationDelay is zero
+    │   └── it should revert
+    └── when maxVerificationDelay is not zero
+        └── it should update data
+

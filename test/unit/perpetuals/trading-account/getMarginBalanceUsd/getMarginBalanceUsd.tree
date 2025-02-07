@@ -1,0 +1,3 @@
+GetMarginBalanceUsd_Unit_Test
+└── when the getMarginBalanceUsd is called
+    └── it should return the margin balance usd

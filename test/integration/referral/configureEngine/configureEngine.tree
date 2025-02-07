@@ -1,0 +1,9 @@
+Referral_ConfigureEngine_Integration_Test
+├── given the sender is not the owner
+│   └── it should revert
+└── given the sender is the owner
+    ├── when the engine is zero
+    │   └── it should revert
+    └── when the engine is not zero
+        ├── it should update the registered engines
+        └── it should emit {LogConfigureEngine} event

@@ -1,0 +1,9 @@
+Stake_Integration_Test
+├── when quality of shares is less than min amount
+│   └── it should revert
+└── when quality of shares is more than min amount
+    ├── when vault is invalid
+    │   └── it should revert
+    └── when vault id is valid
+        └── it should update staked shares
+

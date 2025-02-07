@@ -1,0 +1,7 @@
+UsdTokenSwapKeeper_GetConfig_Integration_Test
+└── given initialize contract
+    └── when call getConfig function
+        ├── it should return keeper owner
+        ├── it should return address of the market making engine
+        ├── it should return streamId
+        └── it should return address of the keeper asset

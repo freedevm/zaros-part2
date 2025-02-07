@@ -1,0 +1,3 @@
+CreditDelegationBranch_CalculateSwapAmount_Integration_Test
+└── when CalculateSwapAmount is called
+    └── it should return the expected asset amount out

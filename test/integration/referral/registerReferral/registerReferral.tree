@@ -1,0 +1,14 @@
+Referral_RegisterReferral_Integration_Test
+├── when the referrer already has a referral
+│   └── it should revert
+└── when the referrer does not have a referral
+    ├── when the referral code is custom
+    │   ├── when the referral code is invalid
+    │   │   └── it should revert
+    │   └── when the referral code is valid
+    │       └── it should emit {LogReferralSet} event
+    └── when the referral code is not custom
+        ├── when the referral code is equal to msg sender
+        │   └── it should revert
+        └── when the referral code is not equal to msg sender
+            └── it should emit {LogReferralSet} event

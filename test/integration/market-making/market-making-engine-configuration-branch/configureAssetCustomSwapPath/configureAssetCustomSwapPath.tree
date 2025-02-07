@@ -1,0 +1,9 @@
+MarketMakingEngineConfigurationBranch_ConfigureAssetCustomSwapPath_Integration_Test
+├── given the sender is not the owner
+│   └── it should revert
+└── given the sender is the owner
+    ├── when swap path asset and dex ids arrays lengths dont match
+    │   └── it should revert
+    └── when swap path asset and dex ids arrays lengths match
+        ├── it should update the dex swap strategy storage
+        └── it should emit {LogConfiguredSwapPath} event

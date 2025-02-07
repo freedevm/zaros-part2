@@ -1,0 +1,29 @@
+ConvertAccumulatedFeesToWeth_Integration_Test
+├── given the sender is not registered engine
+│   └── it should revert
+└── given the sender is registered engine
+    ├── when the market does not exist
+    │   └── it should revert
+    └── when the market exist
+        ├── when the collateal is not enabled
+        │   └── it should revert
+        └── when the collateral is enabled
+            ├── when the market doesn't have the asset
+            │   └── it should revert
+            └── when the market has the asset
+                ├── when the amount is zero
+                │   └── it should revert
+                └── when the amount is not zero
+                    ├── when the dex swap strategy has an invalid dex adapter
+                    │   └── it should revert
+                    └── when the dex swap strategy has a valid dex adapter
+                        ├── when the dex swap strategy has a multi swap path
+                        │   ├── it should verify if the asset is different that weth and convert
+                        │   ├── it should update the pending protocol weth reward
+                        │   ├── it should remove the asset from receivedMarketFees
+                        │   └── it should emit {LogConvertAccumulatedFeesToWeth} event
+                        └── when the dex swap strategy has a single or multihop swap path
+                            ├── it should verify if the asset is different that weth and convert
+                            ├── it should update the pending protocol weth reward
+                            ├── it should remove the asset from receivedMarketFees
+                            └── it should emit {LogConvertAccumulatedFeesToWeth} event
