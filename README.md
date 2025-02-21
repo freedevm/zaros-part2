@@ -65,7 +65,6 @@ Non-Trusted Actors:
     Clients: Any offchain consumer, such as Zaros’ UI, an API service, etc.
 ```
 
-[//]: # (contest-details-close)
 
 
 
